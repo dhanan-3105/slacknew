@@ -1,8 +1,5 @@
 box: debian:stable-slim
 build:
-    
-
-publish:
     steps:
      - slack-notifier:
        url: $SLACK_URL
